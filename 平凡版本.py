@@ -3243,6 +3243,7 @@ def check_ipv4():
 if __name__ == '__main__':
     if check_ipv4():
         gui4_start()
+        count_runs()
     else:
         import sys
         sys.exit()  # 结束程序并可以提供一个退出码
